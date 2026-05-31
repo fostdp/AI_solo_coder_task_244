@@ -1,0 +1,653 @@
+{
+  "medicines": [],
+  "notifications": [],
+  "settings": {
+    "reminder_days": "7",
+    "cron_enabled": "true"
+  },
+  "nextId": {
+    "medicines": 1,
+    "notifications": 1,
+    "drug_interactions": 21,
+    "pharmacies": 6,
+    "pharmacy_inventory": 51
+  },
+  "drug_interactions": [
+    {
+      "drug1_name": "阿莫西林",
+      "drug2_name": "甲氨蝶呤",
+      "severity": "high",
+      "description": "阿莫西林可能增加甲氨蝶呤的毒性，应避免同时使用",
+      "recommendation": "请咨询医生，考虑替代药物",
+      "id": 1
+    },
+    {
+      "drug1_name": "阿莫西林",
+      "drug2_name": "双歧杆菌",
+      "severity": "medium",
+      "description": "阿莫西林可能降低双歧杆菌的疗效",
+      "recommendation": "建议间隔2小时以上服用",
+      "id": 2
+    },
+    {
+      "drug1_name": "布洛芬",
+      "drug2_name": "阿司匹林",
+      "severity": "high",
+      "description": "同时使用可能增加胃肠道出血风险",
+      "recommendation": "避免同时使用，如需联用请咨询医生",
+      "id": 3
+    },
+    {
+      "drug1_name": "布洛芬",
+      "drug2_name": "华法林",
+      "severity": "high",
+      "description": "布洛芬可能增强华法林的抗凝作用，增加出血风险",
+      "recommendation": "避免使用，或在医生监护下使用并监测INR",
+      "id": 4
+    },
+    {
+      "drug1_name": "布洛芬",
+      "drug2_name": "利尿剂",
+      "severity": "medium",
+      "description": "布洛芬可能降低利尿剂的降压效果",
+      "recommendation": "监测血压，必要时调整治疗方案",
+      "id": 5
+    },
+    {
+      "drug1_name": "头孢克肟",
+      "drug2_name": "乙醇",
+      "severity": "medium",
+      "description": "部分头孢类药物与酒精可能发生双硫仑样反应",
+      "recommendation": "用药期间及停药后1周内避免饮酒",
+      "id": 6
+    },
+    {
+      "drug1_name": "甲硝唑",
+      "drug2_name": "酒精",
+      "severity": "high",
+      "description": "甲硝唑与酒精会发生严重的双硫仑样反应",
+      "recommendation": "严格禁止饮酒，包括含酒精的饮料和药物",
+      "id": 7
+    },
+    {
+      "drug1_name": "奥美拉唑",
+      "drug2_name": "氯吡格雷",
+      "severity": "medium",
+      "description": "奥美拉唑可能降低氯吡格雷的抗血小板活性",
+      "recommendation": "考虑使用泮托拉唑或兰索拉唑替代",
+      "id": 8
+    },
+    {
+      "drug1_name": "辛伐他汀",
+      "drug2_name": "红霉素",
+      "severity": "high",
+      "description": "红霉素可能增加辛伐他汀的血药浓度，增加横纹肌溶解风险",
+      "recommendation": "避免同时使用，或换用不相互作用的他汀类药物",
+      "id": 9
+    },
+    {
+      "drug1_name": "辛伐他汀",
+      "drug2_name": "伊曲康唑",
+      "severity": "high",
+      "description": "伊曲康唑显著增加辛伐他汀的血药浓度",
+      "recommendation": "禁止同时使用，如需抗真菌治疗请换用其他药物",
+      "id": 10
+    },
+    {
+      "drug1_name": "硝苯地平",
+      "drug2_name": "西咪替丁",
+      "severity": "medium",
+      "description": "西咪替丁可能增加硝苯地平的血药浓度",
+      "recommendation": "监测血压，必要时调整硝苯地平剂量",
+      "id": 11
+    },
+    {
+      "drug1_name": "地高辛",
+      "drug2_name": "胺碘酮",
+      "severity": "high",
+      "description": "胺碘酮可增加地高辛血药浓度约70%",
+      "recommendation": "地高辛剂量应减半，密切监测血药浓度",
+      "id": 12
+    },
+    {
+      "drug1_name": "地高辛",
+      "drug2_name": "维拉帕米",
+      "severity": "medium",
+      "description": "维拉帕米可增加地高辛血药浓度",
+      "recommendation": "监测地高辛血药浓度，必要时调整剂量",
+      "id": 13
+    },
+    {
+      "drug1_name": "华法林",
+      "drug2_name": "左氧氟沙星",
+      "severity": "medium",
+      "description": "左氧氟沙星可能增强华法林的抗凝作用",
+      "recommendation": "密切监测INR，必要时调整华法林剂量",
+      "id": 14
+    },
+    {
+      "drug1_name": "华法林",
+      "drug2_name": "布洛芬",
+      "severity": "high",
+      "description": "布洛芬影响血小板功能且可能损伤胃黏膜，增加出血风险",
+      "recommendation": "避免使用，如需镇痛可考虑对乙酰氨基酚",
+      "id": 15
+    },
+    {
+      "drug1_name": "环孢素",
+      "drug2_name": "酮康唑",
+      "severity": "high",
+      "description": "酮康唑显著增加环孢素的血药浓度",
+      "recommendation": "避免同时使用，或换用其他抗真菌药物",
+      "id": 16
+    },
+    {
+      "drug1_name": "西地那非",
+      "drug2_name": "硝酸甘油",
+      "severity": "high",
+      "description": "联合使用可能导致严重的低血压",
+      "recommendation": "绝对禁止同时使用",
+      "id": 17
+    },
+    {
+      "drug1_name": "对乙酰氨基酚",
+      "drug2_name": "酒精",
+      "severity": "high",
+      "description": "过量对乙酰氨基酚与酒精联用增加肝损伤风险",
+      "recommendation": "用药期间避免饮酒，不要超剂量使用",
+      "id": 18
+    },
+    {
+      "drug1_name": "锂盐",
+      "drug2_name": "利尿剂",
+      "severity": "high",
+      "description": "利尿剂可能减少锂的排泄，导致锂中毒",
+      "recommendation": "密切监测血锂浓度，必要时调整剂量",
+      "id": 19
+    },
+    {
+      "drug1_name": "苯妥英钠",
+      "drug2_name": "西咪替丁",
+      "severity": "medium",
+      "description": "西咪替丁可能增加苯妥英钠的血药浓度",
+      "recommendation": "监测苯妥英钠血药浓度",
+      "id": 20
+    }
+  ],
+  "pharmacies": [
+    {
+      "name": "和平大药房",
+      "address": "北京市朝阳区和平路88号",
+      "phone": "010-88888888",
+      "latitude": 39.9042,
+      "longitude": 116.4074,
+      "opening_hours": "08:00-22:00",
+      "is_24h": false,
+      "is_online": true,
+      "id": 1,
+      "created_date": "2026-05-11"
+    },
+    {
+      "name": "健康医药超市",
+      "address": "北京市海淀区中关村大街100号",
+      "phone": "010-66666666",
+      "latitude": 39.9842,
+      "longitude": 116.3074,
+      "opening_hours": "07:00-23:00",
+      "is_24h": false,
+      "is_online": true,
+      "id": 2,
+      "created_date": "2026-05-11"
+    },
+    {
+      "name": "康泰药店",
+      "address": "北京市西城区宣武门内大街50号",
+      "phone": "010-55555555",
+      "latitude": 39.9142,
+      "longitude": 116.3774,
+      "opening_hours": "24小时",
+      "is_24h": true,
+      "is_online": false,
+      "id": 3,
+      "created_date": "2026-05-11"
+    },
+    {
+      "name": "益民堂",
+      "address": "北京市东城区东直门内大街200号",
+      "phone": "010-77777777",
+      "latitude": 39.9342,
+      "longitude": 116.4374,
+      "opening_hours": "09:00-21:00",
+      "is_24h": false,
+      "is_online": true,
+      "id": 4,
+      "created_date": "2026-05-11"
+    },
+    {
+      "name": "同仁堂药店",
+      "address": "北京市朝阳区建国路99号",
+      "phone": "010-99999999",
+      "latitude": 39.9092,
+      "longitude": 116.4474,
+      "opening_hours": "08:30-20:30",
+      "is_24h": false,
+      "is_online": true,
+      "id": 5,
+      "created_date": "2026-05-11"
+    }
+  ],
+  "pharmacy_inventory": [
+    {
+      "id": 1,
+      "pharmacy_id": 1,
+      "medicine_name": "阿莫西林",
+      "stock": 78,
+      "price": 15.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 2,
+      "pharmacy_id": 1,
+      "medicine_name": "布洛芬",
+      "stock": 50,
+      "price": 28,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 3,
+      "pharmacy_id": 1,
+      "medicine_name": "头孢克肟",
+      "stock": 77,
+      "price": 45,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 4,
+      "pharmacy_id": 1,
+      "medicine_name": "奥美拉唑",
+      "stock": 59,
+      "price": 35,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 5,
+      "pharmacy_id": 1,
+      "medicine_name": "辛伐他汀",
+      "stock": 47,
+      "price": 55,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 6,
+      "pharmacy_id": 1,
+      "medicine_name": "硝苯地平",
+      "stock": 70,
+      "price": 22,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 7,
+      "pharmacy_id": 1,
+      "medicine_name": "华法林",
+      "stock": 27,
+      "price": 18,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 8,
+      "pharmacy_id": 1,
+      "medicine_name": "对乙酰氨基酚",
+      "stock": 129,
+      "price": 8.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 9,
+      "pharmacy_id": 1,
+      "medicine_name": "甲硝唑",
+      "stock": 35,
+      "price": 12,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 10,
+      "pharmacy_id": 1,
+      "medicine_name": "左氧氟沙星",
+      "stock": 69,
+      "price": 38,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 11,
+      "pharmacy_id": 2,
+      "medicine_name": "阿莫西林",
+      "stock": 73,
+      "price": 15.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 12,
+      "pharmacy_id": 2,
+      "medicine_name": "布洛芬",
+      "stock": 40,
+      "price": 28,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 13,
+      "pharmacy_id": 2,
+      "medicine_name": "头孢克肟",
+      "stock": 96,
+      "price": 45,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 14,
+      "pharmacy_id": 2,
+      "medicine_name": "奥美拉唑",
+      "stock": 52,
+      "price": 35,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 15,
+      "pharmacy_id": 2,
+      "medicine_name": "辛伐他汀",
+      "stock": 32,
+      "price": 55,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 16,
+      "pharmacy_id": 2,
+      "medicine_name": "硝苯地平",
+      "stock": 65,
+      "price": 22,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 17,
+      "pharmacy_id": 2,
+      "medicine_name": "华法林",
+      "stock": 29,
+      "price": 18,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 18,
+      "pharmacy_id": 2,
+      "medicine_name": "对乙酰氨基酚",
+      "stock": 151,
+      "price": 8.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 19,
+      "pharmacy_id": 2,
+      "medicine_name": "甲硝唑",
+      "stock": 56,
+      "price": 12,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 20,
+      "pharmacy_id": 2,
+      "medicine_name": "左氧氟沙星",
+      "stock": 49,
+      "price": 38,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 21,
+      "pharmacy_id": 3,
+      "medicine_name": "阿莫西林",
+      "stock": 124,
+      "price": 15.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 22,
+      "pharmacy_id": 3,
+      "medicine_name": "布洛芬",
+      "stock": 50,
+      "price": 28,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 23,
+      "pharmacy_id": 3,
+      "medicine_name": "头孢克肟",
+      "stock": 89,
+      "price": 45,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 24,
+      "pharmacy_id": 3,
+      "medicine_name": "奥美拉唑",
+      "stock": 57,
+      "price": 35,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 25,
+      "pharmacy_id": 3,
+      "medicine_name": "辛伐他汀",
+      "stock": 32,
+      "price": 55,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 26,
+      "pharmacy_id": 3,
+      "medicine_name": "硝苯地平",
+      "stock": 52,
+      "price": 22,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 27,
+      "pharmacy_id": 3,
+      "medicine_name": "华法林",
+      "stock": 37,
+      "price": 18,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 28,
+      "pharmacy_id": 3,
+      "medicine_name": "对乙酰氨基酚",
+      "stock": 132,
+      "price": 8.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 29,
+      "pharmacy_id": 3,
+      "medicine_name": "甲硝唑",
+      "stock": 55,
+      "price": 12,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 30,
+      "pharmacy_id": 3,
+      "medicine_name": "左氧氟沙星",
+      "stock": 68,
+      "price": 38,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 31,
+      "pharmacy_id": 4,
+      "medicine_name": "阿莫西林",
+      "stock": 87,
+      "price": 15.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 32,
+      "pharmacy_id": 4,
+      "medicine_name": "布洛芬",
+      "stock": 37,
+      "price": 28,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 33,
+      "pharmacy_id": 4,
+      "medicine_name": "头孢克肟",
+      "stock": 65,
+      "price": 45,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 34,
+      "pharmacy_id": 4,
+      "medicine_name": "奥美拉唑",
+      "stock": 49,
+      "price": 35,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 35,
+      "pharmacy_id": 4,
+      "medicine_name": "辛伐他汀",
+      "stock": 42,
+      "price": 55,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 36,
+      "pharmacy_id": 4,
+      "medicine_name": "硝苯地平",
+      "stock": 78,
+      "price": 22,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 37,
+      "pharmacy_id": 4,
+      "medicine_name": "华法林",
+      "stock": 28,
+      "price": 18,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 38,
+      "pharmacy_id": 4,
+      "medicine_name": "对乙酰氨基酚",
+      "stock": 130,
+      "price": 8.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 39,
+      "pharmacy_id": 4,
+      "medicine_name": "甲硝唑",
+      "stock": 45,
+      "price": 12,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 40,
+      "pharmacy_id": 4,
+      "medicine_name": "左氧氟沙星",
+      "stock": 62,
+      "price": 38,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 41,
+      "pharmacy_id": 5,
+      "medicine_name": "阿莫西林",
+      "stock": 116,
+      "price": 15.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 42,
+      "pharmacy_id": 5,
+      "medicine_name": "布洛芬",
+      "stock": 51,
+      "price": 28,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 43,
+      "pharmacy_id": 5,
+      "medicine_name": "头孢克肟",
+      "stock": 94,
+      "price": 45,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 44,
+      "pharmacy_id": 5,
+      "medicine_name": "奥美拉唑",
+      "stock": 58,
+      "price": 35,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 45,
+      "pharmacy_id": 5,
+      "medicine_name": "辛伐他汀",
+      "stock": 49,
+      "price": 55,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 46,
+      "pharmacy_id": 5,
+      "medicine_name": "硝苯地平",
+      "stock": 83,
+      "price": 22,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 47,
+      "pharmacy_id": 5,
+      "medicine_name": "华法林",
+      "stock": 32,
+      "price": 18,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 48,
+      "pharmacy_id": 5,
+      "medicine_name": "对乙酰氨基酚",
+      "stock": 136,
+      "price": 8.5,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 49,
+      "pharmacy_id": 5,
+      "medicine_name": "甲硝唑",
+      "stock": 49,
+      "price": 12,
+      "last_updated": "2026-05-11"
+    },
+    {
+      "id": 50,
+      "pharmacy_id": 5,
+      "medicine_name": "左氧氟沙星",
+      "stock": 54,
+      "price": 38,
+      "last_updated": "2026-05-11"
+    }
+  ],
+  "inventory_alerts": [],
+  "families": [],
+  "family_members": [],
+  "family_medicines": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "当前用户",
+      "avatar": "👤",
+      "created_date": "2026-05-11"
+    }
+  ]
+}
